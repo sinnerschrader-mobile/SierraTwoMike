@@ -1,11 +1,11 @@
-def readableVersionName = "0.0.1"
+def readableVersionName = "0.0.3"
 
 apply plugin: 'com.android.library'
 
 // Details to publish to jcentral - needs to be below "apply" line
 ext {
     PUBLISH_GROUP_ID = 'com.sinnerschradermobile.android'
-    PUBLISH_ARTIFACT_ID = 'sierrawtwomike-base'
+    PUBLISH_ARTIFACT_ID = 'sierratwomike-base'
     PUBLISH_VERSION = readableVersionName // TODO find a way to use versionName here
 }
 

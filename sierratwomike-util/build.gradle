@@ -1,11 +1,11 @@
-def readableVersionName = "0.0.1"
+def readableVersionName = "0.0.2"
 
 apply plugin: 'com.android.library'
 
 // Details to publish to jcentral - needs to be below "apply" line
 ext {
     PUBLISH_GROUP_ID = 'com.sinnerschradermobile.android'
-    PUBLISH_ARTIFACT_ID = 'sierrawtwomike-util'
+    PUBLISH_ARTIFACT_ID = 'sierratwomike-util'
     PUBLISH_VERSION = readableVersionName // TODO find a way to use versionName here
 }
 
@@ -31,7 +31,6 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.1.0'
-    //compile 'com.sinnerschradermobile.android.sierratwomike:sierratwomike-base:0.0.1'
     compile project(':sierratwomike-base')
 }
 

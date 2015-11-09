@@ -5,7 +5,7 @@ apply plugin: 'com.android.library'
 // Details to publish to jcentral - needs to be below "apply" line
 ext {
     PUBLISH_GROUP_ID = 'com.sinnerschradermobile.android'
-    PUBLISH_ARTIFACT_ID = 'sierratwomike-util'
+    PUBLISH_ARTIFACT_ID = 'sierratwomike-all'
     PUBLISH_VERSION = readableVersionName
 }
 
@@ -31,9 +31,10 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
 
-    releaseCompile 'com.sinnerschradermobile.android:sierratwomike-base:0.0.5'
+    // add all libraries here
+    releaseCompile 'com.sinnerschradermobile.android:sierratwomike-util:0.0.5'
 
-    debugCompile project(':sierratwomike-base')
+    debugCompile project(":sierratwomike-util")
 }
 
 apply from: 'https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle'

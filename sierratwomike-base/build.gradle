@@ -1,4 +1,4 @@
-def readableVersionName = "0.0.3"
+def readableVersionName = "0.0.5"
 
 apply plugin: 'com.android.library'
 
@@ -6,7 +6,7 @@ apply plugin: 'com.android.library'
 ext {
     PUBLISH_GROUP_ID = 'com.sinnerschradermobile.android'
     PUBLISH_ARTIFACT_ID = 'sierratwomike-base'
-    PUBLISH_VERSION = readableVersionName // TODO find a way to use versionName here
+    PUBLISH_VERSION = readableVersionName
 }
 
 android {
@@ -31,6 +31,8 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.1.0'
+
+    compile 'com.android.support:support-annotations:23.1.0'
 }
 
 apply from: 'https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle'

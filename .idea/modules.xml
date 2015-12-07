@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/sierratwomike-all/sierratwomike-all.iml" filepath="$PROJECT_DIR$/sierratwomike-all/sierratwomike-all.iml" />
       <module fileurl="file://$PROJECT_DIR$/sierratwomike-base/sierratwomike-base.iml" filepath="$PROJECT_DIR$/sierratwomike-base/sierratwomike-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sierratwomike-root/sierratwomike-root.iml" filepath="$PROJECT_DIR$/sierratwomike-root/sierratwomike-root.iml" />
       <module fileurl="file://$PROJECT_DIR$/sierratwomike-util/sierratwomike-util.iml" filepath="$PROJECT_DIR$/sierratwomike-util/sierratwomike-util.iml" />
     </modules>
   </component>

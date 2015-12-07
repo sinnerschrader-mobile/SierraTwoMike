@@ -1,6 +1,8 @@
-package com.sinnerschradermobile.android.sierratwomike.base;
+package com.sinnerschradermobile.android.sierratwomike.root;
 
 import android.app.Application;
+
+import org.androidannotations.annotations.EApplication;
 
 /**
  * This application class needs to be set inside your AndroidManifest as the application.
@@ -9,6 +11,7 @@ import android.app.Application;
  *
  * @author Martin Breuer
  */
+@EApplication
 public class SupportApplication extends Application {
     private static SupportApplication sInstance;
 

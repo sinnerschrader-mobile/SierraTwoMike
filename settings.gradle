@@ -1,1 +1,1 @@
-include ':app', ':sierratwomike-util', ':sierratwomike-base', ':sierratwomike-all'
+include ':app', ':sierratwomike-util', ':sierratwomike-base', ':sierratwomike-all', ':sierratwomike-root'

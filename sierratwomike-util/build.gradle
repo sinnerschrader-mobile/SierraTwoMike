@@ -1,4 +1,4 @@
-def readableVersionName = "0.0.5"
+def readableVersionName = "0.0.6"
 
 apply plugin: 'com.android.library'
 
@@ -30,6 +30,8 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
+
+    compile 'com.android.support:support-annotations:23.1.1'
 
     releaseCompile 'com.sinnerschradermobile.android:sierratwomike-base:0.0.5'
 
